@@ -28,6 +28,7 @@ const Footer = () => {
   useEffect(() => {
     if (pathname) {
       dispatch(getFooterInherit(pathname));
+      setSelectedBlock(null);
     }
   }, [dispatch, pathname, mode]);
 
@@ -58,7 +59,7 @@ const Footer = () => {
     );
   };
 
-  if (mode === 'edit' && __CLIENT__ && isEditable) {
+  if (mode === 'edit' && isEditable) {
     if (!footerState) return null;
 
     return (
