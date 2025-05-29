@@ -29,6 +29,7 @@ const Footer = () => {
     if (pathname) {
       dispatch(getFooterInherit(pathname));
       setSelectedBlock(null);
+      setFooterState(null);
     }
   }, [dispatch, pathname, mode]);
 
@@ -46,17 +47,19 @@ const Footer = () => {
   }, [content, footerInherit, mode, footerState, getFooterData]);
 
   const handleUpdateFooter = (newData) => {
-    const updatedFooter = {
-      ...(footerState || {}),
-      ...newData,
-    };
-    setFooterState(updatedFooter);
-    dispatch(
-      setFormData({
-        ...content,
-        footer: updatedFooter,
-      }),
-    );
+    if (isEditable) {
+      const updatedFooter = {
+        ...(footerState || {}),
+        ...newData,
+      };
+      setFooterState(updatedFooter);
+      dispatch(
+        setFormData({
+          ...content,
+          footer: updatedFooter,
+        }),
+      );
+    }
   };
 
   if (mode === 'edit' && isEditable) {
