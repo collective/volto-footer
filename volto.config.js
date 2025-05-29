@@ -1,4 +1,4 @@
-const addons = ['volto-footer'];
+const addons = ['@plone-collective/volto-footer'];
 const theme = '';
 
 module.exports = {
