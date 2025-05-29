@@ -1,0 +1,1 @@
+export const GET_FOOTER_INHERIT = 'GET_FOOTER_INHERIT';
