@@ -13,7 +13,7 @@
     "after:release": "rm .changelog.draft README.md"
   },
   "npm": {
-    "publish": false
+    "publish": true
   },
   "git": {
     "changelog": "pipx run towncrier build --draft --yes --version 0.0.0",
