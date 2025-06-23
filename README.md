@@ -1,6 +1,6 @@
 # Volto Footer (volto-footer)
 
-Volto addon to make the footer editable via Plone Site root. Intended to be used with [collective.volto.footer](https://github.com/collective/collective.volto.footer)
+Volto addon to make the footer editable. Intended to be used with [collective.volto.footer](https://github.com/collective/collective.volto.footer)
 
 [![npm](https://img.shields.io/npm/v/volto-footer)](https://www.npmjs.com/package/volto-footer)
 [![](https://img.shields.io/badge/-Storybook-ff4785?logo=Storybook&logoColor=white&style=flat-square)](https://collective.github.io/volto-footer/)
