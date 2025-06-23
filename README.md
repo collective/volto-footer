@@ -9,7 +9,8 @@ Volto addon to make the footer editable via Plone Site root. Intended to be used
 
 ## Features
 
-<img src="https://github.com/user-attachments/assets/c17f989b-e190-4da4-86ea-f81214c1a120" alt="Volto Footer Demo" width="800">
+![Screen Recording 2025-06-23 at 11 47 17](https://github.com/user-attachments/assets/74cabe79-39a1-4822-b8f6-8d5fce3f47b0)
+
 
 This addon allows you to customize the footer by adding blocks to it. You can add any type of block to create rich, dynamic footer content. The footer will automatically use the closest footer configuration relative to the current page.
 
