@@ -10,7 +10,11 @@ Volto addon to make the footer editable. Intended to be used with [collective.vo
 ## Features
 
 
-https://github.com/user-attachments/assets/b7c0ec44-ac73-4312-901b-ea300d1459bd
+
+
+https://github.com/user-attachments/assets/64b0b329-86f2-4dfd-afc6-742b0802f051
+
+
 
 
 
