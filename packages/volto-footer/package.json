@@ -1,6 +1,6 @@
 {
   "name": "@plone-collective/volto-footer",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0",
   "description": "Volto editable footer",
   "main": "src/index.js",
   "license": "MIT",
