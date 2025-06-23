@@ -9,6 +9,8 @@ Volto addon to make the footer editable via Plone Site root. Intended to be used
 
 ## Features
 
+![Screen Recording 2025-06-23 at 11 47 17](https://github.com/user-attachments/assets/c17f989b-e190-4da4-86ea-f81214c1a120)
+
 <!-- List your awesome features here -->
 
 ## Installation
