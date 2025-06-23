@@ -33,6 +33,7 @@ const Footer = () => {
     }
   }, [dispatch, pathname, mode]);
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const getFooterData = useCallback(() => {
     if (footerInherit) {
       return footerInherit;
