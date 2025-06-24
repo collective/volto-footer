@@ -40,14 +40,19 @@ Add `volto-footer` to your `package.json`:
 
 ```json
 "dependencies": {
-    "volto-footer": "*"
+    "@plone-collective/volto-footer": "*"
 }
 ```
 
 Add `volto-footer` to your `volto.config.js`:
 
 ```javascript
-const addons = ['volto-footer'];
+const addons = [
+    ...
+    '@kitconcept/volto-light-theme',
+    '@plone-collective/volto-footer',
+    '<youraddon>',
+];
 ```
 
 If this package provides a Volto theme, and you want to activate it, then add the following to your `volto.config.js`:
