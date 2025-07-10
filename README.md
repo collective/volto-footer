@@ -20,9 +20,6 @@ https://github.com/user-attachments/assets/64b0b329-86f2-4dfd-afc6-742b0802f051
 
 This addon allows you to customize the footer by adding blocks to it. You can add any type of block to create rich, dynamic footer content. The footer will automatically use the closest footer configuration relative to the current page.
 
-**Requirements:**
-- This addon requires [collective.volto.footer](https://github.com/collective/collective.volto.footer) to be installed on the backend.
-
 **Key Features:**
 - **Block-based customization**: Add any type of Volto block to your footer
 - **Context-aware**: Automatically selects the most appropriate footer based on page location
@@ -30,6 +27,9 @@ This addon allows you to customize the footer by adding blocks to it. You can ad
 - **Flexible configuration**: The editable footer behavior can be activated on any content type
 
 ## Installation
+
+**Requirements:**
+- This addon requires [collective.volto.footer](https://github.com/collective/collective.volto.footer) to be installed on the backend.
 
 To install your project, you must choose the method appropriate to your version of Volto.
 
